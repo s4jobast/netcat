@@ -1,8 +1,8 @@
 Aufgabe 1:
-Ich habe zwei einfache Java-Programme zur Nachrichtenübertragung über UDP und TCP implementiert und ausprobiert. Mithilfe
+Ich habe zwei einfache Java-Programme zur Nachrichtenübertragung über UDP und TCP ausprobiert. Mithilfe
 von Wireshark habe ich den Netzwerkverkehr aufgezeichnet und analysiert.
 
-Bei UDP konnte ich jede gesendete Nachricht als einzelnes Paket sehen, der Text war direkt im Klartext lesbar. Da
+Bei UDP konnte ich jede gesendete Nachricht als einzelnes Paket einsehen, der Text war direkt im Klartext lesbar. Da
 UDP verbindungslos ist, gab es keinen Verbindungsaufbau – jedes Paket wurde unabhängig gesendet.
 
 Bei TCP war zuerst ein Verbindungsaufbau durch den Drei-Wege-Handshake sichtbar. Die Nachrichten waren nicht sofort lesbar,
